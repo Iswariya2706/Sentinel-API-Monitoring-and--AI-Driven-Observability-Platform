@@ -183,7 +183,19 @@ API_KEY=your_google_gemini_key
 npm run dev
 
 
-##🔑 Mock Login Credentials
+🔑 Mock Login Credentials
 
 Username: admin
 Password: password
+
+---
+
+| Feature              | Status | Description                                   |
+|----------------------|--------|-----------------------------------------------|
+| Real-time Dashboard  | ✅     | Live updating charts every second             |
+| API Log Explorer     | ✅     | Filter by service, status, latency            |
+| Issue Management     | ✅     | Kanban board for tracking & assigning issues  |
+| Alert System         | ✅     | Real-time critical alerts & warnings          |
+| AI Debugging         | ⭐     | Gemini-powered RCA & actionable insights      |
+| Responsive UI        | ✅     | Tailwind-based, mobile-friendly               |
+
