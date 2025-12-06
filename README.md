@@ -76,14 +76,14 @@ This is not just a UI — it’s a **complete observability workflow system**.
 - **Lucide React**
 
 ### 🎯 **AI Integration (Highlight)**
-- **Google Gemini API (@google/genai)**  
+- **Google Gemini API**  
   Used for intelligent incident analysis, AI-generated recommendations, and context-aware debugging.
 
 ---
 
 # 🏗 **Architecture Overview**
 
-Even without a backend, Sentinel behaves like a multi-service production system thanks to a custom **event-driven simulation architecture**.
+Even without a backend, Sentinel behaves like a multi-service production system due to a custom **event-driven simulation architecture**.
 
 ---
 
@@ -190,6 +190,8 @@ Password: password
 
 ```
 ---
+
+## **✅ Feature Overview**
 
 <table>
   <tr>
