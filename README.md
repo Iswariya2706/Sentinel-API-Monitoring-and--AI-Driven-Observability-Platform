@@ -169,7 +169,7 @@ This is the **signature feature** — production-grade AI integration for observ
 
 ---
 
-## **1. Install Dependencies**
+## **Install Dependencies**
 ```bash
 npm install
 
