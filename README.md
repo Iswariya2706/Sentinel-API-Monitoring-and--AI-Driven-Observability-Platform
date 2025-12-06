@@ -133,27 +133,31 @@ This is the **signature feature** — production-grade AI integration for observ
 
 # 📁 **Project Structure**
 
-├── app/
-│ ├── globals.css # Global Tailwind styles
-│ ├── layout.tsx # Root layout & metadata
-│ └── page.tsx # Main dashboard & routing
-│
-├── components/
-│ ├── AlertFeed.tsx # Real-time critical alerts feed
-│ ├── AnalysisModal.tsx # Displays Gemini AI insights
-│ ├── IssueBoard.tsx # Kanban system for incident tracking
-│ ├── Layout.tsx # App shell & sidebar navigation
-│ ├── LogTable.tsx # Full API log explorer
-│ └── Widgets.tsx # Stat cards, charts, and utilities
-│
-├── services/
-│ ├── geminiService.ts # AI integration service
-│ └── mockData.ts # Simulation Engine
-│
-├── types.ts # Strong TS interfaces
-├── next.config.mjs
-├── tailwind.config.ts
-└── package.json
+```  
+.  
+├── app/  
+│   ├── globals.css          # Global Tailwind styles  
+│   ├── layout.tsx           # Root layout & metadata  
+│   └── page.tsx             # Main dashboard & routing  
+│  
+├── components/  
+│   ├── AlertFeed.tsx        # Real-time critical alerts feed  
+│   ├── AnalysisModal.tsx    # Displays Gemini AI insights  
+│   ├── IssueBoard.tsx       # Kanban system for incident tracking  
+│   ├── Layout.tsx           # App shell & sidebar navigation  
+│   ├── LogTable.tsx         # Full API log explorer  
+│   └── Widgets.tsx          # Stat cards, charts, and utilities  
+│  
+├── services/  
+│   ├── geminiService.ts     # AI integration service  
+│   └── mockData.ts          # Simulation Engine  
+│  
+├── types.ts                 # Strong TS interfaces  
+├── next.config.mjs  
+├── tailwind.config.ts  
+└── package.json  
+```  
+
 
 ---
 
