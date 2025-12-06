@@ -61,19 +61,19 @@ This is not just a UI — it’s a **complete observability workflow system**.
 # 🧠 **Tech Stack**
 
 ### **Framework**
-- **Next.js 14 (App Router)** — Production-grade React framework
+- **Next.js 14 (App Router)**
 
 ### **Language**
-- **TypeScript** — Strongly typed, scalable development
+- **TypeScript**
 
 ### **Styling**
-- **Tailwind CSS** — Utility-first styling
+- **Tailwind CSS**
 
 ### **Visualization**
-- **Recharts** — Real-time charts and visual analytics
+- **Recharts**
 
 ### **Icons**
-- **Lucide React** — Clean and modern icon set
+- **Lucide React**
 
 ### 🎯 **AI Integration (Highlight)**
 - **Google Gemini API (@google/genai)**  
@@ -94,7 +94,7 @@ A custom-built engine that:
 - Generates synthetic API logs every second  
 - Models latency spikes, 5xx errors, traffic surges  
 - Maintains a sliding window buffer (last 500 logs + last 20 seconds of chart data)  
-- Publishes updates using the **Observer Pattern** (real-time dashboard refresh)  
+- Publishes updates using the **Observer Pattern**  
 
 Demonstrates skills in:
 
@@ -109,12 +109,12 @@ Demonstrates skills in:
 
 A realistic SRE-style workflow:
 
-- Create & track issues directly from failed logs  
+- Create & track issues  
 - Assign issues to mock developers (Alice, Bob, Charlie)  
-- Manage them using a Kanban-style interface  
-- Resolve / escalate issues  
+- Manage them in a Kanban-style interface  
+- Resolve or escalate issues  
 
-Replicates workflows seen in **Jira, Sentry, OpsGenie**, and SRE teams.
+Replicates workflows seen in **Jira, Sentry, OpsGenie**.
 
 ---
 
@@ -122,18 +122,17 @@ Replicates workflows seen in **Jira, Sentry, OpsGenie**, and SRE teams.
 
 Every failed API log can be analyzed using Gemini:
 
-- Automatic context extraction (status, service, latency, payload)  
+- Automatic context extraction  
 - Structured RCA prompt engineering  
-- Gemini-powered insights  
-- Clean explanations inside a dedicated modal  
+- Clear, actionable insights  
+- Displayed inside a dedicated modal  
 
-This is the **signature feature** — production-grade AI integration for real observability use cases.
+This is the **signature feature** — production-grade AI integration for observability.
 
 ---
 
 # 📁 **Project Structure**
 
-.
 ├── app/
 │ ├── globals.css # Global Tailwind styles
 │ ├── layout.tsx # Root layout & metadata
@@ -156,9 +155,6 @@ This is the **signature feature** — production-grade AI integration for real o
 ├── tailwind.config.ts
 └── package.json
 
-yaml
-Copy code
-
 ---
 
 # 🛠 **Setup & Installation**
@@ -172,32 +168,18 @@ Copy code
 ## **1. Install Dependencies**
 ```bash
 npm install
-2. Configure AI Key (Optional but Recommended)
+
+2. Configure AI Key
+
 Create a .env.local file:
 
-env
-Copy code
 API_KEY=your_google_gemini_key
+
 3. Run Development Server
-bash
-Copy code
 npm run dev
-4. Visit App
-http://localhost:3000
 
-🔑 Mock Login Credentials
+
+##🔑 Mock Login Credentials
+
 Username: admin
-
 Password: password
-
-✅ Feature Overview
-Feature Status Description
-Real-time Dashboard ✅ Live updating charts every second
-API Log Explorer ✅ Filter by service, status, latency
-Issue Management ✅ Kanban board for tracking & assigning issues
-Alert System ✅ Real-time critical alerts & warnings
-AI Debugging ⭐ Highlight Gemini-powered RCA & actionable insights
-Responsive UI ✅ Tailwind-based, mobile-friendly
-
-📜 License
-This project is created for educational, showcase, and demonstration purposes.
