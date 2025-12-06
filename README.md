@@ -188,14 +188,45 @@ npm run dev
 Username: admin
 Password: password
 
+```
 ---
 
-| Feature              | Status | Description                                   |
-|----------------------|--------|-----------------------------------------------|
-| Real-time Dashboard  | ✅     | Live updating charts every second             |
-| API Log Explorer     | ✅     | Filter by service, status, latency            |
-| Issue Management     | ✅     | Kanban board for tracking & assigning issues  |
-| Alert System         | ✅     | Real-time critical alerts & warnings          |
-| AI Debugging         | ⭐     | Gemini-powered RCA & actionable insights      |
-| Responsive UI        | ✅     | Tailwind-based, mobile-friendly               |
+<table>
+  <tr>
+    <th>Feature</th>
+    <th>Status</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Real-time Dashboard</td>
+    <td>✅</td>
+    <td>Live updating charts every second</td>
+  </tr>
+  <tr>
+    <td>API Log Explorer</td>
+    <td>✅</td>
+    <td>Filter by service, status, latency</td>
+  </tr>
+  <tr>
+    <td>Issue Management</td>
+    <td>✅</td>
+    <td>Kanban board for tracking & assigning issues</td>
+  </tr>
+  <tr>
+    <td>Alert System</td>
+    <td>✅</td>
+    <td>Real-time critical alerts & warnings</td>
+  </tr>
+  <tr>
+    <td>AI Debugging</td>
+    <td>⭐</td>
+    <td>Gemini-powered RCA & actionable insights</td>
+  </tr>
+  <tr>
+    <td>Responsive UI</td>
+    <td>✅</td>
+    <td>Tailwind-based, mobile-friendly</td>
+  </tr>
+</table>
+
 
