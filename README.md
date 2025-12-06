@@ -132,3 +132,72 @@ This is the **signature feature** — production-grade AI integration for real o
 ---
 
 # 📁 **Project Structure**
+
+.
+├── app/
+│ ├── globals.css # Global Tailwind styles
+│ ├── layout.tsx # Root layout & metadata
+│ └── page.tsx # Main dashboard & routing
+│
+├── components/
+│ ├── AlertFeed.tsx # Real-time critical alerts feed
+│ ├── AnalysisModal.tsx # Displays Gemini AI insights
+│ ├── IssueBoard.tsx # Kanban system for incident tracking
+│ ├── Layout.tsx # App shell & sidebar navigation
+│ ├── LogTable.tsx # Full API log explorer
+│ └── Widgets.tsx # Stat cards, charts, and utilities
+│
+├── services/
+│ ├── geminiService.ts # AI integration service
+│ └── mockData.ts # Simulation Engine
+│
+├── types.ts # Strong TS interfaces
+├── next.config.mjs
+├── tailwind.config.ts
+└── package.json
+
+yaml
+Copy code
+
+---
+
+# 🛠 **Setup & Installation**
+
+### **Prerequisites**
+- Node.js ≥ 18  
+- npm  
+
+---
+
+## **1. Install Dependencies**
+```bash
+npm install
+2. Configure AI Key (Optional but Recommended)
+Create a .env.local file:
+
+env
+Copy code
+API_KEY=your_google_gemini_key
+3. Run Development Server
+bash
+Copy code
+npm run dev
+4. Visit App
+http://localhost:3000
+
+🔑 Mock Login Credentials
+Username: admin
+
+Password: password
+
+✅ Feature Overview
+Feature Status Description
+Real-time Dashboard ✅ Live updating charts every second
+API Log Explorer ✅ Filter by service, status, latency
+Issue Management ✅ Kanban board for tracking & assigning issues
+Alert System ✅ Real-time critical alerts & warnings
+AI Debugging ⭐ Highlight Gemini-powered RCA & actionable insights
+Responsive UI ✅ Tailwind-based, mobile-friendly
+
+📜 License
+This project is created for educational, showcase, and demonstration purposes.
